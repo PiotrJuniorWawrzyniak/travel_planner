@@ -1,0 +1,39 @@
+# Python
+*.pyc
+__pycache__/
+
+# Environments
+.env
+venv/
+ENV/
+env/
+
+# Node.js (dla zależności frontendu)
+node_modules/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Debugging
+debug.log
+
+# MySQL (np. pliki dumpów)
+*.sql
+
+# Pyramid-specific
+*.ini       # Pliki konfiguracyjne (np. development.ini lub production.ini), jeśli zawierają dane wrażliwe
+
+# Leaflet.js/Map-related (jeśli korzystasz z lokalnych danych)
+*.geojson
+*.shp
+*.shx
+*.dbf
+
+# Angular-specific
+dist/       # Katalog zbudowanego projektu Angular
+*.map       # Pliki mapy źródeł (dla debugowania JavaScript)
+*.cache     # Tymczasowe pliki cache Webpacka
+.angular/
